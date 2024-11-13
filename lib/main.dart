@@ -1,9 +1,6 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
-
 import 'vision_detector_views/face_detector_view.dart';
-import 'vision_detector_views/face_mesh_detector_view.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -74,14 +71,14 @@ class _HomeState extends State<Home> {
                                 drowsinessFrameThreshold:
                                     _drowsinessFrameThreshold,
                               )),
-                      if (Platform.isAndroid)
-                        CustomCard(
-                            'Face Mesh Detection',
-                            () => FaceDetectorView(
-                                  // 나중에 필요시 해당 클래스 수정
-                                  drowsinessFrameThreshold:
-                                      _drowsinessFrameThreshold,
-                                )),
+                      // if (Platform.isAndroid)
+                      //   CustomCard(
+                      //       'Face Mesh Detection',
+                      //       () => FaceDetectorView(
+                      //             // 나중에 필요시 해당 클래스 수정
+                      //             drowsinessFrameThreshold:
+                      //                 _drowsinessFrameThreshold,
+                      //           )),
                     ],
                   ),
                   SizedBox(height: 20),

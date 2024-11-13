@@ -24,8 +24,7 @@ dependencies:
  
   google_mlkit_face_detection:
     path: google_mlkit_face_detection
-  google_mlkit_face_mesh_detection:
-    path: google_mlkit_face_mesh_detection
+  
   
 dependency_overrides:
   google_mlkit_commons:
@@ -40,6 +39,5 @@ flutter:
   uses-material-design: true
   assets:
     - assets/alarm.wav
-    - assets/images/
   
 

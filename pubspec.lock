@@ -270,13 +270,6 @@ packages:
       relative: true
     source: path
     version: "0.12.0"
-  google_mlkit_face_mesh_detection:
-    dependency: "direct main"
-    description:
-      path: google_mlkit_face_mesh_detection
-      relative: true
-    source: path
-    version: "0.3.0"
   http:
     dependency: transitive
     description:
